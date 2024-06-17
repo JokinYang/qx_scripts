@@ -1,4 +1,4 @@
-let rsp = $response.body
+let rsp = JSON.parse($response.body)
 
 function formatDateTime(date) {
     const year = date.getFullYear();
@@ -25,4 +25,4 @@ rsp['data']['vip_expire_time'] = formatDateTime(getNextMonthDate());
 rsp['data']['name'] = rsp['data']['name'] + "_qx";
 
 console.log(rsp)
-$done(rsp)
+$done(Json.stringify(rsp))
