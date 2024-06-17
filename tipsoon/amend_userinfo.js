@@ -19,10 +19,8 @@ function getNextMonthDate() {
     return date;
 }
 
-
 rsp['data']['is_vip'] = true;
 rsp['data']['vip_expire_time'] = formatDateTime(getNextMonthDate());
-rsp['data']['name'] = rsp['data']['name'] + "_qx";
 
-console.log(rsp)
+
 $done(JSON.stringify(rsp))
