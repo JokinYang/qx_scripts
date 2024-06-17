@@ -22,6 +22,7 @@ function getNextMonthDate() {
 if (rsp['code'] == 1) {
     rsp['data']['is_vip'] = true;
     rsp['data']['vip_expire_time'] = formatDateTime(getNextMonthDate());
+    rsp['data']['name'] = rsp['data']['name']+"_qx";
 }
 
 $done(rsp)
