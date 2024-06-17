@@ -25,4 +25,4 @@ rsp['data']['vip_expire_time'] = formatDateTime(getNextMonthDate());
 rsp['data']['name'] = rsp['data']['name'] + "_qx";
 
 console.log(rsp)
-$done(Json.stringify(rsp))
+$done(JSON.stringify(rsp))
