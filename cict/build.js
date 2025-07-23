@@ -12,7 +12,7 @@ const fg = require('fast-glob');
   await esbuild.build({
     entryPoints: fg.sync(['src/*.ts', 'src/*.js']),
     bundle: true,
-    format: 'iife', // iife
+    format: 'cjs', // iife
     target: ['es2020'],
     platform: 'browser',
     outdir: './dist',
