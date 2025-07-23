@@ -24,7 +24,7 @@ const Env = require('./lib/Env.js')
 const $ = new Env('cict signin');
 
 
-const body = $request.body;
+const body = $response.body;
 const response = JSON.parse(body);
 
 const isOffice = response?.root?.object?.isOffice || false;
