@@ -892,4 +892,4 @@ function Env(name, opts) {
   })(name, opts)
 }
 
-export default Env;
+module.exports = Env;
