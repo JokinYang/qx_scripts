@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN,prod-game-assets-app-41283.akamaized.net
+  - DOMAIN,1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com
+  - DOMAIN,api.accounts.nintendo.com
+  - DOMAIN,pokemon-webapi.appspot.com
+  - DOMAIN,player-api-prod.app-41283.com
